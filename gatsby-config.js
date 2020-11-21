@@ -82,18 +82,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Open Sans`,
-            variants: [`400`, `600`],
-          },
-        ],
-      },
-    },
-
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
